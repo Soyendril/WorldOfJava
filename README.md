@@ -8,7 +8,7 @@ Lorsqu'un monstre et un héros se retrouvent sur la même case, un combat à mor
 
 Ce projet a été réalisé dans le cadre d'une formation de développement en Java. Il m'a permis de me perfectionner dans l'algorithmique et de mieux comprendre la programmation orientée objet en Java.
 
-*Comment jouer ?*
+## *Comment jouer ?*
 
 1) Clonez le dépôt sur votre machine locale.
 2) Ouvrez le projet dans votre IDE favori.
@@ -16,7 +16,7 @@ Ce projet a été réalisé dans le cadre d'une formation de développement en J
 4) Exécutez le programme en lançant le Main.java.
 
 
-*Auteur* : 
+## *Auteur* : 
 
 Soyendril.
 
@@ -24,9 +24,9 @@ Ce projet est issu d'une série de 3 TP réalisés et ensuite corrigés lors de 
 
 
 
-#[EN]  Project Name: World of Java
+# [EN]  Project Name: World of Java
 
-*Description:*
+## *Description:*
 
 World of Java is a Java-based role-playing game where two teams compete against each other: a team of heroes and a team of monsters. Each team consists of two characters who can move around on a map displayed in the console. The "H" represents the heroes, and the "M" represents the monsters.
 
@@ -36,7 +36,7 @@ When a monster and a hero occupy the same square on the map, a battle ensues. Th
 
 This project was created as part of a Java development training program. It helped me improve my algorithmic skills and better understand object-oriented programming in Java.
 
-*Instructions:*
+## *Instructions:*
 
 1) Clone the repository to your local machine.
 2) Compile and run the program in your favorite Java IDE.
@@ -44,7 +44,7 @@ This project was created as part of a Java development training program. It help
 Enjoy the game!
 
 
-*Author:*
+## *Author:*
 Soyendril
 
 This project is the result of a series of 3 practical work assignments that were completed and then corrected during my Java training. This is my version of the exercise, with a few modifications from original instruction, including the management of the display that distinguishes between monsters and heroes on the map.
