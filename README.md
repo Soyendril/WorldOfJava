@@ -2,13 +2,9 @@
 
 World of Java est un jeu de rôle écrit en Java. Dans ce jeu, deux équipes s'affrontent : une équipe de héros et une équipe de monstres. Chaque équipe est composée de deux personnages. Les personnages peuvent se déplacer sur une carte qui est affichée dans la console. Les "H" correspondent aux héros, les "M" correspondent aux monstres.
 
-Chaque personnage dans le jeu possède des statistiques qui sont générées de manière aléatoire, y compris pour les armes et les boucliers. Cela signifie que chaque personnage sera unique. Chaque personnage possède une arme et une seule. Les armes disponibles sont l'épée, le gourdin et les poings. De plus, les personnages peuvent posséder un bouclier ce qui permet d'augmenter leur armure. Les boucliers sont eux aussi générés de manière aléatoire, les personnages ont une chance ou non d'en avoir un.
-
-Lorsqu'un monstre et un héros se retrouvent sur la même case, un combat à mort se déclenche. Le programme annonce alors toutes les actions du personnage pendant le combat. Les personnages possèdent un inventaire contenant de la nourriture qui leur permet de regagner de l'endurance lors des combats. De plus, les personnages ont la possibilité de dormir pendant le combat pour regagner de la vie.
-
 Ce projet a été réalisé dans le cadre d'une formation de développement en Java. Il m'a permis de me perfectionner dans l'algorithmique et de mieux comprendre la programmation orientée objet en Java.
 
-## *Comment jouer ?*
+## *Comment Lancer le projet ?*
 
 1) Clonez le dépôt sur votre machine locale.
 2) Ouvrez le projet dans votre IDE favori.
@@ -29,10 +25,6 @@ Ce projet est issu d'une série de 3 TP réalisés et ensuite corrigés lors de 
 ## *Description:*
 
 World of Java is a Java-based role-playing game where two teams compete against each other: a team of heroes and a team of monsters. Each team consists of two characters who can move around on a map displayed in the console. The "H" represents the heroes, and the "M" represents the monsters.
-
-Each character in the game has randomly generated statistics, including weapons and shields. This means that each character is unique. Each character has only one weapon, which can be either a sword, a mace, or their fists, and they can also possess a shield, which increases their armor. Shields are also randomly generated, and characters may or may not have one.
-
-When a monster and a hero occupy the same square on the map, a battle ensues. The program announces all of the character's actions during the fight. Characters have an inventory containing food that allows them to regain stamina during combat. Additionally, characters have the ability to sleep during the fight to regain health.
 
 This project was created as part of a Java development training program. It helped me improve my algorithmic skills and better understand object-oriented programming in Java.
 
