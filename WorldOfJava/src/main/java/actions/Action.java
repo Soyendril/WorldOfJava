@@ -19,21 +19,23 @@ public class Action {
         Monde.Choix[] choix = Monde.Choix.values();
         int rand = new Random().nextInt(choix.length);
         Monde.Choix choixEffectuer = choix[rand];
-        switch (choixEffectuer) {
-            case SLEEP:
-                Sleep.heal(combattants);
-                System.out.println(combattants.getNom()+" decide de dormir !");
-                break;
-            case MOVE:
-                Move.deplacement(combattants,map);
-                break;
-            case NOTHING:
-                System.out.println(combattants.getNom()+" ne fait rien");
-                break;
-            case EAT:
-                combattants.manger();
-                System.out.println(combattants.getNom()+" mange");
+        if (combattants.getPointDeVie() != 0) {
+            switch (choixEffectuer) {
+                case SLEEP:
+                    Sleep.heal(combattants);
+                    System.out.println(combattants.getNom() + " decide de dormir !");
+                    break;
+                case MOVE:
+                    Move.deplacement(combattants, map);
+                    break;
+                case NOTHING:
+                    System.out.println(combattants.getNom() + " ne fait rien");
+                    break;
+                case EAT:
+                    combattants.manger();
+                    System.out.println(combattants.getNom() + " mange");
 
+            }
         }
     }
 }

@@ -3,12 +3,12 @@ package objects;
 public class Bouclier implements IItems {
 
     private String nom;
-    private Integer defence;
+    private Integer defense;
     private Integer poids;
 
-    public Bouclier(String nom, Integer defence, Integer poids) {
+    public Bouclier(String nom, Integer defense, Integer poids) {
         this.nom = nom;
-        this.defence = defence;
+        this.defense = defense;
         this.poids = poids;
     }
 
@@ -20,12 +20,12 @@ public class Bouclier implements IItems {
         this.nom = nom;
     }
 
-    public Integer getDefence() {
-        return defence;
+    public Integer getDefense() {
+        return defense;
     }
 
-    public void setDefence(Integer defence) {
-        this.defence = defence;
+    public void setDefense(Integer defence) {
+        this.defense = defense;
     }
 
     public Integer getPoids() {

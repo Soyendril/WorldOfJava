@@ -30,7 +30,7 @@ public class Map {
 
         for (char[] chars : map) {
             for (int j = 0; j < map[0].length; j++) {
-                System.out.print(String.valueOf(chars[j]));
+                System.out.print(chars[j]);
             }
             System.out.println();
         }
