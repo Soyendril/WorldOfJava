@@ -4,7 +4,7 @@ public class Main {
     public static void main(String... args) {
 
         /**
-         * Lancement de Worlo of Java: Mists of IntellIJ
+         * Lancement de World of Java: Mists of IntellIJ
          * Création du monde
          * Instanciation des différents objet
          * Lancement de la boucle pour les tour de jeux
@@ -17,7 +17,7 @@ public class Main {
         System.out.println("==========================================/     Lancement des combats      /==========================================");
         boolean condition = true;
         int index = 0;
-        while(condition && index <= 50){
+        while(condition && index <= 100){
 
             System.out.println("==========================================/         Tour numéro "+ index+"          /==========================================");
             condition = m.demarrer();

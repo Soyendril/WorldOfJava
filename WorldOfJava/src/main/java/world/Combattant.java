@@ -86,7 +86,7 @@ public abstract class Combattant implements ICombattants {
      */
     @Override
     public void attaquer(ICombattants adversaire) {
-        adversaire.setPointDeVie(this.getPointDeVie() - (this.getArmes().getDegat() - adversaire.getBouclier().getDefence()));
+        adversaire.setPointDeVie(this.getPointDeVie() - (this.getArmes().getDegat() - adversaire.getBouclier().getDefense()));
     }
 
     /**
